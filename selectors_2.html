@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: lime;
+        }
+        div > div {
+            background: pink;
+        }
+        .es {
+            background: red;
+        }
+        div + section {
+            background-color: royalblue;
+        }
+        div ~ p {
+            color: palegoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p>Prueba Gnomo selectores combinados</p>
+            <div class="es">Es</div>
+        </div>
+    </div>
+    <p>Clase de selectores</p>
+    <p>Clase de selectores 2</p>
+    <section>
+        Es lo mejor
+    </section>
+    <div>
+        Master
+    </div>
+</body>
+</html>
